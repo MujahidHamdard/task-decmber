@@ -1,0 +1,128 @@
+.container{
+    width: 80%;
+    margin: 0px auto;
+    aspect-ratio: 1/1;
+    border: 1px  solid blue;
+    background-color: black;
+
+}
+/* header na */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+
+}
+header nav a{
+    color: white;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+/* nav_bottom */
+.nav_bottom{
+    width: 100%;
+ 
+}
+.nav_bottom figure{
+    width: 50%;
+    aspect-ratio: 1/1;
+
+}
+.nav_bottom figure img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.nav_bottom .text{
+    width: 100%;
+    height: 50%;
+    color: white;
+
+    text-align: left;
+    margin-top: 55px ;
+    margin-left: 250px;
+    
+
+}
+.nav_bottom .text h5{
+    font-size: 100px;
+    
+}
+.nav_bottom .text h2{
+    font-size: 50px;
+}
+.nav_bottom .text a{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 50px;
+
+}
+
+/* .main_bottom  */
+..main_bottom .row .cadr{
+    width: 100%;
+    background-color: white;
+}
+..main_bottom .row .cadr figure{
+    width: 100%;
+    height: 100%;
+}
+.main_bottom .card .card-body{
+    text-align: center;
+}
+
+.main2_shose{
+    width: 100%;
+    margin-top: 10px;
+}
+.main2_shose .row .card{
+    background-color: black;
+}
+.main2_shose .dubbl_shose{
+    width: 50%;
+    height: 50%;
+    background-color:black;
+    margin-left: 100px;
+
+}
+.main2_shose .row .card figure{
+    background-color: gray;
+}
+.main2_shose  .deflex{
+    width: 100%;
+    border: 1px solid yellow;
+    margin-top: 10rem;
+    margin-right: 30rem;
+    margin-left: 0px;
+}
+
+
+
+
+.products-carousel .swiper-slide figure{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+
+.products-carousel .swiper-slide figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
